@@ -1,0 +1,18 @@
+.articles__other {
+
+}
+
+.miniCard__container {
+  border: solid white;
+  margin-left: 0px;
+  margin-right: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.photo__container > {
+  width: 25px;
+  height: 100%;
+  margin-right: 10px;
+
+}

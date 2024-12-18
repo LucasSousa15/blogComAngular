@@ -1,18 +1,27 @@
-.articles__other {
+
+.miniCard__container {
+  margin-right: 50px;
 
 }
 
-.miniCard__container {
-  border: solid white;
-  margin-left: 0px;
-  margin-right: 50px;
+.container__minicard__content {
   display: flex;
   flex-direction: row;
 }
 
-.photo__container > {
-  width: 25px;
+.photo__container  {
+  width: 60%;
   height: 100%;
-  margin-right: 10px;
+  margin-right: 25px;
+}
 
+.text__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container__minicard__division {
+  margin-top: 10px;
 }

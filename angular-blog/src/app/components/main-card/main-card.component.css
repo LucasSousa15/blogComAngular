@@ -1,5 +1,6 @@
 .maincard__container {
-    border: solid 1px white;
+    border-radius: 5px;
+    background-color: grey;
     margin-left: 20px;
     margin-right: 15px;
     display: flex;
@@ -7,6 +8,14 @@
     flex-direction: column;
 }
 
+
+.maincard__photo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
 .maincard__photo > img {
     width: 80%;
     height: 80%;
@@ -17,6 +26,10 @@
 .maincard__title  > a{
     font-size: 25px;
     margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
 
 }
 
